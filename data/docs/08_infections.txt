@@ -1,0 +1,502 @@
+Infections
+Collection: Tuberculosis (TB), Typhoid Fever, Rabies, Shingles, Foodborne Illnesses, Scabies
+
+
+## Tuberculosis (TB)
+
+Source: Centers for Disease Control and Prevention (CDC), http://www.cdc.gov/tb
+
+How to diagnose Tuberculosis (TB)?
+Tuberculosis (TB) is a disease that is spread through the air from one person to another. There are two kinds of tests that are used to determine if a person has been infected with TB bacteria: the tuberculin skin test and TB blood tests.
+
+A positive TB skin test or TB blood test only tells that a person has been infected with TB bacteria. It does not tell whether the person has latent TB infection (LTBI) or has progressed to TB disease. Other tests, such as a chest x-ray and a sample of sputum, are needed to see whether the person has TB disease.
+
+Tuberculin skin test: The TB skin test (also called the Mantoux tuberculin skin test) is performed by injecting a small amount of fluid (called tuberculin) into the skin in the lower part of the arm. A person given the tuberculin skin test must return within 48 to 72 hours to have a trained health care worker look for a reaction on the arm. The health care worker will look for a raised, hard area or swelling, and if present, measure its size using a ruler. Redness by itself is not considered part of the reaction.
+
+The skin test result depends on the size of the raised, hard area or swelling. It also depends on the person’s risk of being infected with TB bacteria and the progression to TB disease if infected.
+
+- Positive skin test: This
+means the person’s body was infected with TB bacteria. Additional tests are needed to determine if the person has latent TB infection or TB disease. A health care worker will then provide treatment as needed.
+- Negative skin test: This means the person’s body did not react to the test, and that latent TB infection or TB disease is not likely.
+
+TB blood tests:
+TB blood tests (also called interferon-gamma release assays or IGRAs) measure how the immune system reacts to the bacteria that cause TB. An IGRA measures how strong a person’s immune system reacts to TB bacteria by testing the person’s blood in a laboratory.
+
+Two IGRAs are approved by the U.S. Food and Drug Administration (FDA) and are available in the United States:
+
+- QuantiFERON®–TB Gold In-Tube test (QFT-GIT)
+- T-SPOT®.TB test (T-Spot)
+
+- Positive IGRA: This means that the person has been infected with TB bacteria. Additional tests are needed to determine if the person has latent TB infection or TB disease. A health care worker will then provide treatment as needed.
+- Negative IGRA: This means that the person’s blood did not react to the test and that latent TB infection or TB disease is not likely.
+
+IGRAs are the preferred method of TB infection testing for the following:
+
+- People who have a difficult time returning for a second appointment to look for a reaction to the TST.
+
+There is no problem with repeated IGRAs.
+
+Testing for TB in BCG-Vaccinated Persons
+
+Many people born outside of the United States have been BCG-vaccinated.
+
+People who have had a previous BCG vaccine may receive a TB skin test. In some people, BCG may cause a positive skin test when they are not infected with TB bacteria. If a TB skin test is positive, additional tests are needed.
+
+IGRAs, unlike the TB skin tests, are not affected by prior BCG vaccination and are not expected to give a false-positive result in people who have received BCG.
+
+Choosing a TB Test
+
+The person’s health care provider should choose which TB test to use. Factors in selecting which test to use include the reason for testing, test availability, and cost. Generally, it is not recommended to test a person with both a TST and an IGRA.
+
+Diagnosis of Latent TB Infection or TB Disease
+
+If a person is found to be infected with TB bacteria, other tests are needed to see if the person has TB disease.
+
+TB disease can be diagnosed by medical history, physical examination, chest x-ray, and other laboratory tests. TB disease is treated by taking several drugs as recommended by a health care provider.
+
+If a person does not have TB disease, but has TB bacteria in the body, then latent TB infection is diagnosed. The decision about treatment for latent TB infection will be based on a person’s chances of developing TB disease.
+
+Diagnosis of TB Disease
+
+People suspected of having TB disease should be referred for a medical evaluation, which will include
+
+- Medical history,
+- Physical examination,
+- Test for TB infection (TB skin test or TB blood test),
+- Chest radiograph (X-ray), and
+- Appropriate laboratory tests
+
+See Diagnosis of TB (Fact sheet) for more information about TB diagnosis.
+
+Related Links
+
+For Patients
+
+For Health Care Providers
+
+How to prevent Tuberculosis (TB)?
+Infection Control in Health Care Settings
+
+Tuberculosis (TB) transmission has been documented in health care settings where health care workers and patients come in contact with people who have TB disease.
+
+People who work or receive care in health care settings are at higher risk for becoming infected with TB; therefore, it is necessary to have a TB infection control plan as part of a general infection control program designed to ensure the following:
+
+- prompt detection of infectious patients,
+- airborne precautions, and
+- treatment of people who have suspected or confirmed TB disease.
+
+In order to be effective, the primary emphasis of a TB infection control program should be on achieving these three goals.
+
+In all health care settings, particularly those in which people are at high risk for exposure to TB, policies and procedures for TB control should be developed, reviewed periodically, and evaluated for effectiveness to determine the actions necessary to minimize the risk for transmission of TB.
+
+The TB infection control program should be based on a three-level hierarchy of control measures and include:
+
+- Administrative measures
+- Environmental controls
+- Use of respiratory protective equipment
+
+The first and most important level of the hierarchy, administrative measures, impacts the largest number of people. It is intended primarily to reduce the risk of uninfected people who are exposed to people who have TB disease.
+
+The second level of the hierarchy is the use of environmental controls to reduce the amount of TB in the air. The first two control levels of the hierarchy also minimize the number of areas in the health care setting where exposure to TB may occur.
+
+The third level of the hierarchy is the use of respiratory protective equipment in situations that pose a high risk of exposure to TB. Use of respiratory protection equipment can further reduce the risk for exposure of health care workers.
+
+More: Information about Infection Control in Health Care Settings
+
+TB Prevention
+
+Preventing Exposure to TB Disease While Traveling Abroad
+Travelers should avoid close contact or prolonged time with known TB patients in crowded, enclosed environments (for example, clinics, hospitals, prisons, or homeless shelters).
+
+Travelers who will be working in clinics, hospitals, or other health care settings where TB patients are likely to be encountered should consult infection control or occupational health experts. They should ask about administrative and environmental procedures for preventing exposure to TB. Once those procedures are implemented, additional measures could include using personal respiratory protective devices.
+
+Travelers who anticipate possible prolonged exposure to people with TB (for example, those who expect to come in contact routinely with clinic, hospital, prison, or homeless shelter populations) should have a tuberculin skin test (TST) or interferon-gamma release assay (IGRA) test before leaving the United States. If the test reaction is negative, they should have a repeat test 8 to 10 weeks after returning to the United States. Additionally, annual testing may be recommended for those who anticipate repeated or prolonged exposure or an extended stay over a period of years. Because people with HIV infection are more likely to have an impaired response to both the TST and IGRA, travelers who are HIV positive should tell their physicians about their HIV infection status.
+
+More: Tuberculosis Information for International Travelers
+
+What to Do If You Have Been Exposed to TB
+
+If you think you have been exposed to someone with TB disease, contact your health care provider or local health department to see if you should be tested for TB. Be sure to tell the doctor or nurse when you spent time with someone who has TB disease.
+
+More: What to Do If You Have Been Exposed to TB
+
+Preventing Latent TB Infection from Progressing to TB Disease
+
+Many people who have latent TB infection never develop TB disease. But some people who have latent TB infection are more likely to develop TB disease than others. Those at high risk for developing TB disease include:
+
+- People with HIV infection
+- People who became infected with TB bacteria in the last 2 years
+- Babies and young children
+- People who inject illegal drugs
+- People who are sick with other diseases that weaken the immune system
+- Elderly people
+- People who were not treated correctly for TB in the past
+
+If you have latent TB infection and you are in one of these high-risk groups, you should take medicine to keep from developing TB disease. There are several treatment options for latent TB infection. You and your health care provider must decide which treatment is best for you. If you take your medicine as instructed, it can keep you from developing TB disease. Because there are less bacteria, treatment for latent TB infection is much easier than treatment for TB disease. A person with TB disease has a large amount of TB bacteria in the body. Several drugs are needed to treat TB disease.
+
+What are the treatments for Tuberculosis (TB)?
+Tuberculosis (TB) is caused by a bacterium called Mycobacterium tuberculosis. The bacteria usually attack the lungs, but TB bacteria can attack any part of the body such as the kidney, spine, and brain. If not treated properly, TB disease can be fatal.
+
+Not everyone infected with TB bacteria becomes sick. As a result, two TB-related conditions exist: latent TB infection and TB disease. Both latent TB infection and TB disease can be treated. Learn more about the difference between latent TB infection and TB disease.
+
+Treatment for Latent TB Infection
+
+People with latent TB infection have TB bacteria in their bodies, but they are not sick because the bacteria are not active. People with latent TB infection do not have symptoms, and they cannot spread TB bacteria to others. However, if TB bacteria become active in the body and multiply, the person will go from having latent TB infection to being sick with TB disease. For this reason, people with latent TB infection are often prescribed treatment to prevent them from developing TB disease. Treatment of latent TB infection is essential for controlling and eliminating TB in the United States.
+
+Because there are less bacteria in a person with latent TB infection, treatment is much easier. Four regimens are approved for the treatment of latent TB infection. The medications used to treat latent TB infection include:
+
+- isoniazid (INH)
+- rifampin (RIF)
+- rifapentine (RPT)
+
+Certain groups of people (such as people with weakened immune systems) are at very high risk of developing TB disease once infected with TB bacteria. Every effort should be made to begin appropriate treatment and to ensure completion of the entire course of treatment for latent TB infection.
+
+More: Treatment for Latent TB Infection
+
+Treatment for TB Disease
+
+TB bacteria become active (multiplying in the body) if the immune system can't stop them from growing. When TB bacteria are active, this is called TB disease. TB disease will make a person sick. People with TB disease may spread the bacteria to people with whom they spend many hours.
+
+TB disease can be treated by taking several drugs for 6 to 9 months. There are 10 drugs currently approved by the U.S. Food and Drug Administration (FDA) for treating TB. Of the approved drugs, the first-line anti-TB agents that form the core of treatment regimens include:
+
+- isoniazid (INH)
+- rifampin (RIF)
+- ethambutol (EMB)
+- pyrazinamide (PZA)
+
+Regimens for treating TB disease have an initial phase of 2 months, followed by a choice of several options for the continuation phase of either 4 or 7 months (total of 6 to 9 months for treatment). Learn more about the continuation phase of treatment.
+
+It is very important that people who have TB disease finish the medicine, taking the drugs exactly as prescribed. If they stop taking the drugs too soon, they can become sick again; if they do not take the drugs correctly, the TB bacteria that are still alive may become resistant to those drugs. TB that is resistant to drugs is harder and more expensive to treat.
+
+More: Treatment for TB Disease
+
+Treatment Completion
+
+Treatment completion is determined by the number of doses ingested over a given period of time. Although basic TB regimens are broadly applicable, there are modifications that should be made under special circumstances (such as people with HIV infection, drug resistance, pregnancy, or treatment of children).
+
+What is Tuberculosis (TB)?
+The Division of Tuberculosis Elimination (DTBE) Laboratory Branch (LB) provides services for the following tests on mycobacterial cultures. Any local health department, licensed physician's office, licensed laboratory or licensed health care facility may submit cultures for testing but they must be routed through either their state health department or other authorized facility.
+Genotyping
+State or local TB control programs
+
+A genotyping laboratory, in Michigan is under contract with CDC to provide genotyping services to TB programs in the United States. Three genotyping methods to identify TB strains:
+
+- Spoligotyping
+- Mycobacterial interspersed repetitive unit (MIRU) analysis
+- IS6110-based restriction fragment length polymorphism (RFLP) analysis
+
+For more information, view the Guide to the Application of Genotyping to Tuberculosis Prevention and Control.
+
+DTBE epidemiologic investigations and surveillance activities
+
+- The LB provides support for DTBE epidemiologic investigations and surveillance activities. TB genotyping results, when combined with epidemiologic data, help to distinguish TB patients who are involved in the same chain of recent transmission.
+
+Drug susceptibility testing
+
+The LB performs drug susceptibility testing for selected Mycobacterium species referred from state or other authorized health facilities. Cultures of mycobacteria are tested by the indirect proportion method with antituberculosis drugs incorporated into 7H10 agar plates.
+
+Additional Resources
+
+
+## Typhoid Fever
+
+Source: Centers for Disease Control and Prevention (CDC), http://www.cdc.gov/nczved/divisions/dfbmd/diseases/typhoid_fever/
+
+What are the symptoms of Typhoid Fever?
+Persons with typhoid fever usually have a sustained fever as high as 103° to 104° F (39° to 40° C). They may also feel weak, or have stomach pains, headache, or loss of appetite. In some cases, patients have a rash of flat, rose-colored spots. The only way to know for sure if an illness is typhoid fever is to have samples of stool or blood tested for the presence of Salmonella Typhi.
+
+Typhoid fever’s danger doesn’t end when symptoms disappear:
+
+Even if your symptoms seem to go away, you may still be carrying Salmonella Typhi. If so, the illness could return, or you could pass the disease to other people. In fact, if you work at a job where you handle food or care for small children, you may be barred legally from going back to work until a doctor has determined that you no longer carry any typhoid bacteria.
+
+If you are being treated for typhoid fever, it is important to do the following:
+
+Keep taking the prescribed antibiotics for as long as the doctor has asked you to take them.
+
+Wash your hands carefully with soap and water after using the bathroom, and do not prepare or serve food for other people. This will lower the chance that you will pass the infection on to someone else.
+
+Have your doctor perform a series of stool cultures to ensure that no Salmonella Typhi bacteria remain in your body.
+
+
+## Rabies
+
+Source: Centers for Disease Control and Prevention (CDC), http://www.cdc.gov/rabies/
+
+what are the signs and symptoms of rabies?
+The first symptoms of rabies may be very similar to those of the flu including general weakness or discomfort, fever, or headache. These symptoms may last for days.
+
+There may be also discomfort or a prickling or itching sensation at the site of bite, progressing within days to symptoms of cerebral dysfunction, anxiety, confusion, agitation. As the disease progresses, the person may experience delirium, abnormal behavior, hallucinations, and insomnia.
+
+The acute period of disease typically ends after 2 to 10 days. Once clinical signs of rabies appear, the disease is nearly always fatal, and treatment is typically supportive.
+
+Disease prevention includes administration of both passive antibody, through an injection of human immune globulin and a round of injections with rabies vaccine.
+
+Once a person begins to exhibit signs of the disease, survival is rare. To date less than 10 documented cases of human survival from clinical rabies have been reported and only two have not had a history of pre- or postexposure prophylaxis.
+
+what is the risk for my pet for Rabies?
+Any animal bitten or scratched by either a wild, carnivorous mammal or a bat that is not available for testing should be regarded as having been exposed to rabies.
+
+Unvaccinated dogs, cats, and ferrets exposed to a rabid animal should be euthanized immediately. If the owner is unwilling to have this done, the animal should be placed in strict isolation for 6 months and vaccinated 1 month before being released.
+
+Animals with expired vaccinations need to be evaluated on a case-by-case basis. Dogs and cats that are currently vaccinated are kept under observation for 45 days.
+
+Small mammals such as squirrels, rats, mice, hamsters, guinea pigs, gerbils, chipmunks, rabbits, and hares are almost never found to be infected with rabies and have not been known to cause rabies among humans in the United States. Bites by these animals are usually not considered a risk of rabies unless the animal was sick or behaving in any unusual manner and rabies is widespread in your area.
+
+However, from 1985 through 1994, woodchucks accounted for 86% of the 368 cases of rabies among rodents reported to CDC. Woodchucks or groundhogs (Marmota monax) are the only rodents that may be frequently submitted to state health department because of a suspicion of rabies. In all cases involving rodents, the state or local health department should be consulted before a decision is made to initiate postexposure prophylaxis (PEP).
+Is there rabies in my area?
+
+Each state collects specific information about rabies, and is the best source for information on rabies in your area. In addition, the CDC publishes rabies surveillance data every year for the United States. The report, entitled Rabies Surveillance in the United States, contains information about the number of cases of rabies reported to CDC during the year, the animals reported rabid, maps showing where cases were reported for wild and domestic animals, and distribution maps showing outbreaks of rabies associated with specific animals.
+
+how is rabies diagnosed?
+In animals, rabies is diagnosed using the direct fluorescent antibody (DFA) test, which looks for the presence of rabies virus antigens in brain tissue. In humans, several tests are required.
+
+Rapid and accurate laboratory diagnosis of rabies in humans and other animals is essential for timely administration of postexposure prophylaxis. Within a few hours, a diagnostic laboratory can determine whether or not an animal is rabid and inform the responsible medical personnel. The laboratory results may save a patient from unnecessary physical and psychological trauma, and financial burdens, if the animal is not rabid.
+
+In addition, laboratory identification of positive rabies cases may aid in defining current epidemiologic patterns of disease and provide appropriate information for the development of rabies control programs.
+
+The nature of rabies disease dictates that laboratory tests be standardized, rapid, sensitive, specific, economical, and reliable.
+
+
+## Shingles
+
+Source: NIHSeniorHealth, http://nihseniorhealth.gov/shingles/toc.html
+
+What is Shingles?
+Shingles is a painful rash that develops on one side of the face or body. The rash forms blisters that typically scab over in 7 to 10 days and clear up within 2 to 4 weeks. Most commonly, the rash occurs in a single stripe around either the left or the right side of the body. In other cases, the rash occurs on one side of the face. In rare cases (usually among people with weakened immune systems), the rash may be more widespread and look similar to a chickenpox rash. Shingles is very common. Fifty percent of all Americans will have had shingles by the time they are 80. While shingles occurs in people of all ages, it is most common in 60- to 80-year-olds. In fact, one out of every three people 60 years or older will get shingles. button on your keyboard.) What Causes Shingles? Shingles is caused by a reactivation of the chickenpox virus. It is distinctive because it affects only one side of the body. The early signs of shingles usually develop in three stages: severe pain or tingling, possibly itchy rash, and blisters that look like chickenpox. The virus that causes shingles is a herpes virus, (Another name for shingles is herpes zoster.) Once you are infected with this kind of virus, it remains in your body for life. It stays inactive until a period when your immunity is down. Shingles and Pain The most common complication of shingles is pain -- a condition called post-herpetic neuralgia (PHN). People with PHN have severe pain in the areas where they had the shingles rash, even after the rash clears up. In most patients, the pain usually clears up in a few weeks or months, but some people can have pain from PHN for years. Persistent pain from shingles is a common symptom in people over 60. In fact, one out of six people older than 60 years who get shingles will have severe pain. As people get older, they are more likely to develop long-term pain as a complication of shingles and the pain is likely to be more severe. Other Complications Shingles may also lead to other serious complications. - Outbreaks that start on the face or eyes can cause vision or hearing problems. Even permanent blindness can result if the cornea of the eye is affected. - Bacterial infection of the open sores can lead to scarring. Outbreaks that start on the face or eyes can cause vision or hearing problems. Even permanent blindness can result if the cornea of the eye is affected. Bacterial infection of the open sores can lead to scarring. - In a very small number of cases, bacteria can cause more serious conditions, including toxic shock syndrome and necrotizing fasciitis, a severe infection that destroys the soft tissue under the skin. - The burning waves of pain, loss of sleep, and interference with even basic life activities can cause serious depression. - In patients with immune deficiency, the rash can be much more extensive than usual and the illness can be complicated by pneumonia. These cases are more serious, but they are rarely fatal. - Very rarely, shingles can also lead to pneumonia, brain inflammation (encephalitis), or death. In a very small number of cases, bacteria can cause more serious conditions, including toxic shock syndrome and necrotizing fasciitis, a severe infection that destroys the soft tissue under the skin. The burning waves of pain, loss of sleep, and interference with even basic life activities can cause serious depression. In patients with immune deficiency, the rash can be much more extensive than usual and the illness can be complicated by pneumonia. These cases are more serious, but they are rarely fatal. Very rarely, shingles can also lead to pneumonia, brain inflammation (encephalitis), or death. Shingles Usually Does Not Return People who develop shingles usually have only one episode in their lifetime. However, a person can have a second or even a third episode. The Shingles Vaccine Adults 60 years old or older should talk to their healthcare professional about getting a one-time dose of the shingles vaccine. The vaccine can reduce your risk of shingles and the long-term pain it can cause. If you have already had shingles or you have a chronic medical condition, you can receive the shingles vaccine. (See more about the shingles vaccine in the chapter Prevention.) Is Shingles Contagious? Shingles cannot be passed from one person to another. However, the virus that causes shingles, the varicella zoster virus, can be spread from a person with active shingles to another person who has never had chickenpox. In such cases, the person exposed to the virus might develop chickenpox, but they would not develop shingles. The virus is spread through direct contact with fluid from the rash blisters caused by shingles. A person with active shingles can spread the virus when the rash is in the blister phase. A person is not infectious before the blisters appear. Once the rash has developed crusts, the person is no longer contagious. Shingles is less contagious than chickenpox and the risk of a person with shingles spreading the virus is low if the rash is covered. If You Have Shingles If you have shingles, - keep the rash covered - avoid touching or scratching the rash - wash your hands often to prevent the spread of varicella zoster virus. keep the rash covered avoid touching or scratching the rash wash your hands often to prevent the spread of varicella zoster virus. Until your rash has developed crusts, avoid contact with - pregnant women who have never had chickenpox or the chickenpox vaccine - premature or low birth weight infants - people with weakened immune systems, such as people receiving immunosuppressive medications or undergoing chemotherapy, organ transplant recipients, and people with human immunodeficiency virus (HIV) infection. pregnant women who have never had chickenpox or the chickenpox vaccine premature or low birth weight infants people with weakened immune systems, such as people receiving immunosuppressive medications or undergoing chemotherapy, organ transplant recipients, and people with human immunodeficiency virus (HIV) infection. If you have not had chickenpox and you come into contact with someone who has shingles, ask your healthcare provider whether you should get a chickenpox vaccination. To learn more, see "What You Need to Know about Shingles and the Shingles Vaccine."
+
+What causes Shingles?
+Caused By A Virus Shingles is caused by a virus called varicella-zoster virus -- the one that gave you chickenpox when you were a child. As you recovered from chickenpox, the sores healed and the other symptoms went away, but the virus remained. It is with you for life. The virus hides out in nerve cells, usually in the spine. But it can become active again. Somehow, the virus gets a signal that your immunity has become weakened. This triggers the reactivation. When the virus becomes active again, it follows a nerve path called a dermatome. The nerve path begins at specific points in the spine, continues around one side of the body, and surfaces at the nerve endings in the skin. The pattern of the rash reflects the location of that nerve path. Risk Factors The leading risk factor for shingles is a history of having had chickenpox. One out of every five people who have had chickenpox is likely to get shingles. Another risk factor is aging. As we age, our natural immunity gradually loses its ability to protect against infection. The shingles virus can take advantage of this and become active again. Conditions that weaken the immune system can also put people at risk for shingles. Shingles is especially dangerous for anyone who has had cancer, radiation treatments for cancer, HIV/AIDS, or a transplant operation. Stress is another factor that may contribute to outbreaks. While stress alone does not cause the outbreaks, shingles often occurs in people who have recently had a stressful event in their lives. Most cases of shingles occur in adults. Only about 5 percent of cases occur in children. With children, immune deficiency is the primary risk factor, but children who had chickenpox before they were one year old may also get shingles before they become adults. There have been studies of adults who had chickenpox as children and were later exposed to children who had chickenpox. Interestingly, that exposure apparently boosted the adult's immunity, which actually helped them avoid getting shingles later in life.
+
+How to prevent Shingles?
+A Vaccine for Adults 60 and Older In May 2006, the U.S. Food and Drug Administration approved a vaccine (Zostavax) to prevent shingles in people age 60 and older. The vaccine is designed to boost the immune system and protect older adults from getting shingles later on. Even if you have had shingles, you can still get the shingles vaccine to help prevent future occurrences of the disease. There is no maximum age for getting the vaccine, and only a single dose is recommended. In a clinical trial involving thousands of adults 60 years old or older, the vaccine reduced the risk of shingles by about half. A One-time Dose To reduce the risk of shingles, adults 60 years old or older should talk to their healthcare professional about getting a one-time dose of the shingles vaccine. Even if the shingles vaccine doesnt prevent you from getting shingles, it can still reduce the chance of having long-term pain. If you have had shingles before, you can still get the shingles vaccine to help prevent future occurrences of the disease. There is no maximum age for getting the vaccine. Side Effects Vaccine side effects are usually mild and temporary. In most cases, shingles vaccine causes no serious side effects. Some people experience mild reactions that last up to a few days, such as headache or redness, soreness, swelling, or itching where the shot was given. When To Get the Vaccine The decision on when to get vaccinated should be made with your health care provider. The shingles vaccine is not recommended if you have active shingles or pain that continues after the rash is gone. Although there is no specific time that you must wait after having shingles before receiving the shingles vaccine, you should generally make sure that the shingles rash has disappeared before getting vaccinated. Where To Get the Vaccine The shingles vaccine is available in doctors offices, pharmacies, workplaces, community health clinics, and health departments. Most private health insurance plans cover recommended vaccines. Check with your insurance provider for details and for a list of vaccine providers. Medicare Part D plans cover shingles vaccine, but there may be costs to you depending on your specific plan. If you do not have health insurance, visit www.healthcare.gov to learn more about health insurance options. Who Should Not Get the Vaccine? You should NOT get the shingles vaccine if you - have an active case of shingles or have pain that continues after the rash is gone - have ever had a life-threatening or severe allergic reaction to gelatin, the antibiotic neomycin, or any other component of the shingles vaccine. Tell your doctor if you have any severe allergies. - have a weakened immune system because of: -- HIV/AIDS or another disease that affects the immune system -- treatment with drugs that affect the immune system, such as steroids -- cancer treatment such as radiation or chemotherapy -- cancer affecting the bone marrow or lymphatic system, such as leukemia or lymphoma. have an active case of shingles or have pain that continues after the rash is gone have ever had a life-threatening or severe allergic reaction to gelatin, the antibiotic neomycin, or any other component of the shingles vaccine. Tell your doctor if you have any severe allergies. have a weakened immune system because of: -- HIV/AIDS or another disease that affects the immune system -- treatment with drugs that affect the immune system, such as steroids -- cancer treatment such as radiation or chemotherapy -- cancer affecting the bone marrow or lymphatic system, such as leukemia or lymphoma. - are pregnant or might be pregnant. are pregnant or might be pregnant. To learn more about the vaccine, see Zostavax: Questions and Answers. Could Vaccines Make Shingles a Rare Disease? The shingles vaccine is basically a stronger version of the chickenpox vaccine, which became available in 1995. The chickenpox shot prevents chickenpox in 70 to 90 percent of those vaccinated, and 95 percent of the rest have only mild symptoms. Millions of children and adults have already received the chickenpox shot. Interestingly, the chickenpox vaccine may reduce the shingles problem. Widespread use of the chickenpox vaccine means that fewer people will get chickenpox in the future. And if people do not get chickenpox, they cannot get shingles. Use of the shingles and chickenpox vaccines may one day make shingles a rare disease. To find out more, visit Shingles Vaccination: What You Need to Know or Shingles Vaccine)
+
+What are the symptoms of Shingles?
+Burning, Itching, Tingling, Then a Rash An outbreak of shingles usually begins with a burning, itching, or tingling sensation on the back, chest, or around the rib cage or waist. It is also common for the face or eye area to be affected. button on your keyboard.) Some people report feeling feverish and weak during the early stages. Usually within 48 to 72 hours, a red, blotchy rash develops on the affected area. The rash erupts into small blisters that look like chickenpox. The blisters seem to arrive in waves over a period of three to five days. Blisters The blisters tend to be clustered in one specific area, rather than being scattered all over the body like chickenpox. The torso or face are the parts most likely to be affected, but on occasion, shingles breaks out in the lower body. The burning sensation in the rash area is often accompanied by shooting pains. After the blisters erupt, the open sores take a week or two to crust over. The sores are usually gone within another two weeks. The pain may diminish somewhat, but it often continues for months -- and can go on for years. Pain Shingles can be quite painful. Many shingles patients say that it was the intense pain that ultimately sent them to their healthcare provider. They often report that the sensation of anything brushing across the inflamed nerve endings on the skin is almost unbearable. Diagnosis is Usually Easy for Healthcare Providers A typical shingles case is easy to diagnose. A healthcare provider might suspect shingles if - the rash is only on one side of the body - the rash erupts along one of the many nerve paths, called dermatomes, that stem from the spine. the rash is only on one side of the body the rash erupts along one of the many nerve paths, called dermatomes, that stem from the spine. A healthcare provider usually confirms a diagnosis of shingles if the person also - reports a sharp, burning pain - has had chickenpox - has blisters that look like chickenpox - is elderly. reports a sharp, burning pain has had chickenpox has blisters that look like chickenpox is elderly. If the Diagnosis Is Unclear Some people go to their healthcare provider because of burning, painful, itchy sensations on one area of skin, but they don't get a rash. If there is no rash, the symptoms can be difficult to diagnose because they can be mistaken for numerous other diseases. In cases where there is no rash or the diagnosis is questionable, healthcare providers can do a blood test. If there is a rash, but it does not resemble the usual shingles outbreak, a healthcare provider can examine skin scrapings from the sores.
+
+What are the treatments for Shingles?
+If You Suspect Shingles If you suspect you have shingles, see your healthcare provider within 72 hours of the first sign of the rash.Treatment with antiviral medications can reduce the severity of the nerve damage and speed healing. But to be effective, they must be started as soon as possible after the rash appears. button on your keyboard.) Antivirals and Other Treatments At the early stage of shingles, a healthcare provider will usually prescribe antiviral pills. These antiviral medicines include acyclovir, valacyclovir, or famcyclovir, Your healthcare provider, may also prescribe drugs to relieve pain. Wet compresses, calamine lotion, and colloidal oatmeal baths may help relieve some of the itching. Patients with long-term pain may also be treated with numbing patches, tricyclic antidepressants, and gabapentin, an anti-seizure medication. While these treatments can reduce the symptoms of shingles, they are not a cure. The antivirals do weaken the virus and its effects, but the outbreak still tends to run its course. Good hygiene, including daily bathing, can help prevent bacterial infections. It is a good idea to keep fingernails clean and well-trimmed to reduce scratching. Shingles Vaccine The shingles vaccine is NOT recommended if you have active shingles or pain that continues after the rash is gone. To learn more about the shingles vaccine, see the chapter on "Prevention."
+
+What is Shingles?
+Shingles -- also called varicella-zoster -- is a painful skin disease caused by a reactivation of the chickenpox virus. It is distinctive because it affects only one side of the body. The early signs of shingles usually develop in three stages: severe pain or tingling, possibly itchy rash, and blisters that look like chickenpox. button on your keyboard.)
+
+Who is at risk for Shingles??
+Shingles is very common. Fifty percent of all Americans will have had shingles by the time they are 80. While shingles occurs in people of all ages, it is most common in 60-to 80-year-olds. In fact, one out of every three people 60 years or older will get shingles.
+
+What are the symptoms of Shingles?
+The first symptoms usually include burning, itching, or tingling sensations on the back, chest, or around the rib cage or waist. In other cases, it can be the face or eye area that is involved. The affected area can become extremely painful. This is when most people go to a healthcare provider to find out what is causing the pain. Some people report feeling feverish and weak during the early stages. Usually within 48 to 72 hours, a red, blotchy rash develops on the affected area. The rash erupts into small blisters that look like chickenpox. The blisters tend to be clustered in one specific area, rather than being scattered all over the body like chickenpox. The torso or face are the parts most likely to be affected, but on occasion, shingles breaks out in the lower body. The burning sensation in the rash area is often accompanied by shooting pains. After the blisters erupt, the open sores take a week or two to crust over. The sores are usually gone within another two weeks. The pain may diminish somewhat, but it often continues for months -- and can go on for years.
+
+How to diagnose Shingles?
+A typical shingles case is easy to diagnose. A healthcare provider might suspect shingles if - the rash is only on one side of the body - the rash erupts along one of the many nerve paths, called dermatomes, that stem from the spine. the rash is only on one side of the body the rash erupts along one of the many nerve paths, called dermatomes, that stem from the spine. A healthcare provider usually confirms a diagnosis of shingles if the person also - reports a sharp, burning pain - has had chickenpox - has blisters that look like chickenpox - is elderly. reports a sharp, burning pain has had chickenpox has blisters that look like chickenpox is elderly. Other symptoms of shingles can include - fever - headache - chills - upset stomach. fever headache chills upset stomach. Some people go to their healthcare provider because of burning, painful, itchy sensations on one area of skin, but they don't get a rash. If there is no rash, the symptoms can be difficult to diagnose because they can be mistaken for numerous other diseases. In cases where there is no rash or the diagnosis is questionable, healthcare providers can do a blood test. If there is a rash, but it does not resemble the usual shingles outbreak, a healthcare provider can examine skin scrapings from the sores.
+
+What are the complications of Shingles?
+The most common complication of shingles is pain -- a condition called post-herpetic neuralgia (PHN). People with PHN have severe pain in the areas where they had the shingles rash, even after the rash clears up. In most patients, the pain usually clears up in a few weeks or months, but some people can have pain from PHN for years. Shingles may also lead to other serious complications. - Outbreaks that start on the face or eyes can cause vision or hearing problems. Even permanent blindness can result if the cornea of the eye is affected. - Bacterial infection of the open sores can lead to scarring. - In a very small number of cases, bacteria can cause more serious conditions, including toxic shock syndrome and necrotizing fasciitis, a severe infection that destroys the soft tissue under the skin. - The burning waves of pain, loss of sleep, and interference with even basic life activities can cause serious depression. - In patients with immune deficiency, the rash can be much more extensive than usual and the illness can be complicated by pneumonia. These cases are more serious, but they are rarely fatal. - Very rarely, shingles can also lead to pneumonia, brain inflammation (encephalitis), or death. Outbreaks that start on the face or eyes can cause vision or hearing problems. Even permanent blindness can result if the cornea of the eye is affected. Bacterial infection of the open sores can lead to scarring. In a very small number of cases, bacteria can cause more serious conditions, including toxic shock syndrome and necrotizing fasciitis, a severe infection that destroys the soft tissue under the skin. The burning waves of pain, loss of sleep, and interference with even basic life activities can cause serious depression. In patients with immune deficiency, the rash can be much more extensive than usual and the illness can be complicated by pneumonia. These cases are more serious, but they are rarely fatal. Very rarely, shingles can also lead to pneumonia, brain inflammation (encephalitis), or death.
+
+What causes Shingles?
+Shingles is caused by a virus called the varicella-zoster virus -- the one that gave you chickenpox when you were a child. As you recovered from chickenpox, the sores and other symptoms healed, but the virus remained. It is with you for life. Researchers know that the varicella-zoster virus behaves differently from other viruses, such as the flu virus. Our immune system usually kills off invading germs, but it cannot completely knock out this type of virus. The virus just becomes inactive. The virus can become active again, especially in the later years of your life when your immune system doesn't protect you as well from infections. The virus travels from the spinal nerve cells and follows a nerve path out to the skin. Nerve endings in the skin become inflamed and erupt in a very painful rash. Healthcare providers cannot always be sure what the trigger is in each case. They don't know why the virus reactivates in one person with these risk factors, while in another person with the same risk factors, it does not.
+
+Who is at risk for Shingles??
+The leading risk factor for shingles is a history of having had chickenpox. One out of every five people who have had chickenpox is likely to get shingles. Another risk factor is aging. As we age, our natural immunity gradually loses its ability to protect against infection. The shingles virus can take advantage of this and become active again. Conditions that weaken the immune system can also put people at risk for shingles. Shingles is especially dangerous for anyone who has had cancer, radiation treatments for cancer, HIV/AIDS, or a transplant operation. Our immune system gradually loses strength as we mature. After people reach 50, the body is not able to fight off infections as easily as it once did.
+
+What is Shingles?
+"A burning, tingly feeling is what I noticed first," said an elderly woman describing her symptoms. "I looked in the mirror, and there was a rash on just one side of my back. Then the shooting pains started. Days later, I could hardly stand to have my clothes touching me. I thought maybe I had hives or poison ivy," she said, "until I went to the doctor."
+
+What are the symptoms of Shingles?
+A week or two after the blisters erupt, the oozing sores will begin to crust over. The sores are usually gone after another two weeks. The pain usually decreases over the next few weeks, but some patients may have pain for months -- sometimes, for years.
+
+How to prevent Shingles?
+Yes. In May 2006, the U.S. Food and Drug Administration approved a vaccine to prevent shingles in people age 60 and older. The vaccine, called Zostavax, is designed to boost the immune system and protect older adults from getting shingles later on. Even if you have had shingles, you can still get the shingles vaccine to help prevent future occurrences of the disease. There is no maximum age for getting the vaccine, and only a single dose is recommended. The shingles vaccine is NOT recommended if you have active shingles or pain that continues after the rash is gone. button on your keyboard.) The shingles vaccine is available in pharmacies and doctor's offices. Talk with your healthcare professional if you have questions about the vaccine. To learn more about the vaccine, see "Zostavax: Questions and Answers."
+
+What are the treatments for Shingles?
+Treatment with antiviral medications can reduce the severity of the nerve damage and speed healing. But to be effective, they must be started as soon as possible after the rash appears. If you suspect you have shingles, see your healthcare provider within 72 hours of the first sign of the rash. At the early stage of shingles, a healthcare provider will usually prescribe antiviral pills. These antiviral medicines include acyclovir, valacyclovir, or famcyclovir, Your healthcare provider, may also prescribe drugs to relieve pain. Wet compresses, calamine lotion, and colloidal oatmeal baths may help relieve some of the itching. Patients with long-term pain may also be treated with numbing patches, tricyclic antidepressants, and gabapentin, an anti-seizure medication. The shingles vaccine is not recommended if you have active shingles or pain that continues after the rash is gone. While these treatments can reduce the symptoms of shingles, they are not a cure. The antivirals do weaken the virus and its effects, but the outbreak still tends to run its course. Good hygiene, including daily bathing, can help prevent bacterial infections. It is a good idea to keep fingernails clean and well-trimmed to reduce scratching.
+
+
+## Foodborne Illnesses
+
+Source: National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), http://www.niddk.nih.gov/health-information/health-topics/digestive-diseases/foodborne-illnesses/Pages/facts.aspx
+
+What is Foodborne Illnesses?
+Foodborne illnesses are infections or irritations of the gastrointestinal (GI) tract caused by food or beverages that contain harmful bacteria, parasites, viruses, or chemicals. The GI tract is a series of hollow organs joined in a long, twisting tube from the mouth to the anus. Common symptoms of foodborne illnesses include vomiting, diarrhea, abdominal pain, fever, and chills.
+
+Most foodborne illnesses are acute, meaning they happen suddenly and last a short time, and most people recover on their own without treatment. Rarely, foodborne illnesses may lead to more serious complications. Each year, an estimated 48 million people in the United States experience a foodborne illness. Foodborne illnesses cause about 3,000 deaths in the United States annually.1
+
+What causes Foodborne Illnesses?
+The majority of foodborne illnesses are caused by harmful bacteria and viruses.2 Some parasites and chemicals also cause foodborne illnesses.
+
+Bacteria
+
+Bacteria are tiny organisms that can cause infections of the GI tract. Not all bacteria are harmful to humans.
+
+Some harmful bacteria may already be present in foods when they are purchased. Raw foods including meat, poultry, fish and shellfish, eggs, unpasteurized milk and dairy products, and fresh produce often contain bacteria that cause foodborne illnesses. Bacteria can contaminate foodmaking it harmful to eatat any time during growth, harvesting or slaughter, processing, storage, and shipping.
+
+Foods may also be contaminated with bacteria during food preparation in a restaurant or home kitchen. If food preparers do not thoroughly wash their hands, kitchen utensils, cutting boards, and other kitchen surfaces that come into contact with raw foods, cross-contaminationthe spread of bacteria from contaminated food to uncontaminated foodmay occur.
+
+If hot food is not kept hot enough or cold food is not kept cold enough, bacteria may multiply. Bacteria multiply quickly when the temperature of food is between 40 and 140 degrees. Cold food should be kept below 40 degrees and hot food should be kept above 140 degrees. Bacteria multiply more slowly when food is refrigerated, and freezing food can further slow or even stop the spread of bacteria. However, bacteria in refrigerated or frozen foods become active again when food is brought to room temperature. Thoroughly cooking food kills bacteria.
+
+Many types of bacteria cause foodborne illnesses. Examples include
+
+- Salmonella, a bacterium found in many foods, including raw and undercooked meat, poultry, dairy products, and seafood. Salmonella may also be present on egg shells and inside eggs. - Campylobacter jejuni (C. jejuni), found in raw or undercooked chicken and unpasteurized milk. - Shigella, a bacterium spread from person to person. These bacteria are present in the stools of people who are infected. If people who are infected do not wash their hands thoroughly after using the bathroom, they can contaminate food that they handle or prepare. Water contaminated with infected stools can also contaminate produce in the field. - Escherichia coli (E. coli), which includes several different strains, only a few of which cause illness in humans. E. coli O157:H7 is the strain that causes the most severe illness. Common sources of E. coli include raw or undercooked hamburger, unpasteurized fruit juices and milk, and fresh produce. - Listeria monocytogenes (L. monocytogenes), which has been found in raw and undercooked meats, unpasteurized milk, soft cheeses, and ready-to-eat deli meats and hot dogs. - Vibrio, a bacterium that may contaminate fish or shellfish. - Clostridium botulinum (C. botulinum), a bacterium that may contaminate improperly canned foods and smoked and salted fish.
+
+Viruses
+
+Viruses are tiny capsules, much smaller than bacteria, that contain genetic material. Viruses cause infections that can lead to sickness. People can pass viruses to each other. Viruses are present in the stool or vomit of people who are infected. People who are infected with a virus may contaminate food and drinks, especially if they do not wash their hands thoroughly after using the bathroom.
+
+Common sources of foodborne viruses include
+
+- food prepared by a person infected with a virus - shellfish from contaminated water - produce irrigated with contaminated water
+
+Common foodborne viruses include
+
+- norovirus, which causes inflammation of the stomach and intestines - hepatitis A, which causes inflammation of the liver
+
+Parasites
+
+Parasites are tiny organisms that live inside another organism. In developed countries such as the United States, parasitic infections are relatively rare.
+
+Cryptosporidium parvum and Giardia intestinalis are parasites that are spread through water contaminated with the stools of people or animals who are infected. Foods that come into contact with contaminated water during growth or preparation can become contaminated with these parasites. Food preparers who are infected with these parasites can also contaminate foods if they do not thoroughly wash their hands after using the bathroom and before handling food.
+
+Trichinella spiralis is a type of roundworm parasite. People may be infected with this parasite by consuming raw or undercooked pork or wild game.
+
+Chemicals
+
+Harmful chemicals that cause illness may contaminate foods such as
+
+- fish or shellfish, which may feed on algae that produce toxins, leading to high concentrations of toxins in their bodies. Some types of fish, including tuna and mahi mahi, may be contaminated with bacteria that produce toxins if the fish are not properly refrigerated before they are cooked or served. - certain types of wild mushrooms. - unwashed fruits and vegetables that contain high concentrations of pesticides.
+
+Who is at risk for Foodborne Illnesses??
+Anyone can get a foodborne illness. However, some people are more likely to develop foodborne illnesses than others, including
+
+- infants and children - pregnant women and their fetuses - older adults - people with weak immune systems
+
+These groups also have a greater risk of developing severe symptoms or complications of foodborne illnesses.
+
+What are the symptoms of Foodborne Illnesses?
+Symptoms of foodborne illnesses depend on the cause. Common symptoms of many foodborne illnesses include
+
+- vomiting - diarrhea or bloody diarrhea - abdominal pain - fever - chills
+
+Symptoms can range from mild to serious and can last from a few hours to several days.
+
+C. botulinum and some chemicals affect the nervous system, causing symptoms such as
+
+- headache - tingling or numbness of the skin - blurred vision - weakness - dizziness - paralysis
+
+What are the complications of Foodborne Illnesses?
+Foodborne illnesses may lead to dehydration, hemolytic uremic syndrome (HUS), and other complications. Acute foodborne illnesses may also lead to chronicor long lastinghealth problems.
+
+Dehydration
+
+When someone does not drink enough fluids to replace those that are lost through vomiting and diarrhea, dehydration can result. When dehydrated, the body lacks enough fluid and electrolytesminerals in salts, including sodium, potassium, and chlorideto function properly. Infants, children, older adults, and people with weak immune systems have the greatest risk of becoming dehydrated.
+
+Signs of dehydration are
+
+- excessive thirst - infrequent urination - dark-colored urine - lethargy, dizziness, or faintness
+
+Signs of dehydration in infants and young children are
+
+- dry mouth and tongue - lack of tears when crying - no wet diapers for 3 hours or more - high fever - unusually cranky or drowsy behavior - sunken eyes, cheeks, or soft spot in the skull
+
+Also, when people are dehydrated, their skin does not flatten back to normal right away after being gently pinched and released.
+
+Severe dehydration may require intravenous fluids and hospitalization. Untreated severe dehydration can cause serious health problems such as organ damage, shock, or comaa sleeplike state in which a person is not conscious.
+
+HUS
+
+Hemolytic uremic syndrome is a rare disease that mostly affects children younger than 10 years of age. HUS develops when E. coli bacteria lodged in the digestive tract make toxins that enter the bloodstream. The toxins start to destroy red blood cells, which help the blood to clot, and the lining of the blood vessels.
+
+In the United States, E. coli O157:H7 infection is the most common cause of HUS, but infection with other strains of E. coli, other bacteria, and viruses may also cause HUS. A recent study found that about 6 percent of people with E. coli O157:H7 infections developed HUS. Children younger than age 5 have the highest risk, but females and people age 60 and older also have increased risk.3
+
+Symptoms of E. coli O157:H7 infection include diarrhea, which may be bloody, and abdominal pain, often accompanied by nausea, vomiting, and fever. Up to a week after E. coli symptoms appear, symptoms of HUS may develop, including irritability, paleness, and decreased urination. HUS may lead to acute renal failure, which is a sudden and temporary loss of kidney function. HUS may also affect other organs and the central nervous system. Most people who develop HUS recover with treatment. Research shows that in the United States between 2000 and 2006, fewer than 5 percent of people who developed HUS died of the disorder. Older adults had the highest mortality rateabout one-third of people age 60 and older who developed HUS died.3
+
+Studies have shown that some children who recover from HUS develop chronic complications, including kidney problems, high blood pressure, and diabetes.
+
+Other Complications
+
+Some foodborne illnesses lead to other serious complications. For example, C. botulinum and certain chemicals in fish and seafood can paralyze the muscles that control breathing. L. monocytogenes can cause spontaneous abortion or stillbirth in pregnant women.
+
+Research suggests that acute foodborne illnesses may lead to chronic disorders, including
+
+- reactive arthritis, a type of joint inflammation that usually affects the knees, ankles, or feet. Some people develop this disorder following foodborne illnesses caused by certain bacteria, including C. jejuni and Salmonella. Reactive arthritis usually lasts fewer than 6 months, but this condition may recur or become chronic arthritis.4 - irritable bowel syndrome (IBS), a disorder of unknown cause that is associated with abdominal pain, bloating, and diarrhea or constipation or both. Foodborne illnesses caused by bacteria increase the risk of developing IBS.5 - Guillain-Barr syndrome, a disorder characterized by muscle weakness or paralysis that begins in the lower body and progresses to the upper body. This syndrome may occur after foodborne illnesses caused by bacteria, most commonly C. jejuni. Most people recover in 6 to 12 months.6
+
+A recent study found that adults who had recovered from E. coli O157:H7 infections had increased risks of high blood pressure, kidney problems, and cardiovascular disease.7
+
+How to diagnose Foodborne Illnesses?
+To diagnose foodborne illnesses, health care providers ask about symptoms, foods and beverages recently consumed, and medical history. Health care providers will also perform a physical examination to look for signs of illness.
+
+Diagnostic tests for foodborne illnesses may include a stool culture, in which a sample of stool is analyzed in a laboratory to check for signs of infections or diseases. A sample of vomit or a sample of the suspected food, if available, may also be tested. A health care provider may perform additional medical tests to rule out diseases and disorders that cause symptoms similar to the symptoms of foodborne illnesses.
+
+If symptoms of foodborne illnesses are mild and last only a short time, diagnostic tests are usually not necessary.
+
+What are the treatments for Foodborne Illnesses?
+The only treatment needed for most foodborne illnesses is replacing lost fluids and electrolytes to prevent dehydration.
+
+Over-the-counter medications such as loperamide (Imodium) and bismuth subsalicylate (Pepto-Bismol and Kaopectate) may help stop diarrhea in adults. However, people with bloody diarrheaa sign of bacterial or parasitic infectionshould not use these medications. If diarrhea is caused by bacteria or parasites, over-the-counter medications may prolong the problem. Medications to treat diarrhea in adults can be dangerous for infants and children and should only be given with a health care providers guidance.
+
+If the specific cause of the foodborne illness is diagnosed, a health care provider may prescribe medications, such as antibiotics, to treat the illness.
+
+Hospitalization may be required to treat lifethreatening symptoms and complications, such as paralysis, severe dehydration, and HUS.
+
+How to prevent Foodborne Illnesses?
+Foodborne illnesses can be prevented by properly storing, cooking, cleaning, and handling foods.
+
+- Raw and cooked perishable foodsfoods that can spoilshould be refrigerated or frozen promptly. If perishable foods stand at room temperature for more than 2 hours, they may not be safe to eat. Refrigerators should be set at 40 degrees or lower and freezers should be set at 0 degrees. - Foods should be cooked long enough and at a high enough temperature to kill the harmful bacteria that cause illnesses. A meat thermometer should be used to ensure foods are cooked to the appropriate internal temperature: - 145 degrees for roasts, steaks, and chops of beef, veal, pork, and lamb, followed by 3 minutes of rest time after the meat is removed from the heat source - 160 degrees for ground beef, veal, pork, and lamb - 165 degrees for poultry - Cold foods should be kept cold and hot foods should be kept hot. - Fruits and vegetables should be washed under running water just before eating, cutting, or cooking. A produce brush can be used under running water to clean fruits and vegetables with firm skin. - Raw meat, poultry, seafood, and their juices should be kept away from other foods. - People should wash their hands for at least 20 seconds with warm, soapy water before and after handling raw meat, poultry, fish, shellfish, produce, or eggs. People should also wash their hands after using the bathroom, changing diapers, or touching animals. - Utensils and surfaces should be washed with hot, soapy water before and after they are used to prepare food. Diluted bleach1 teaspoon of bleach to 1 quart of hot watercan also be used to sanitize utensils and surfaces.
+
+More information about preventing foodborne illnesses is available at www.foodsafety.gov.
+
+
+## Scabies
+
+Source: Centers for Disease Control and Prevention (CDC), http://www.cdc.gov/parasites/scabies
+
+What is Parasites - Scabies?
+Scabies is an infestation of the skin by the human itch mite (Sarcoptes scabiei var. hominis). The microscopic scabies mite burrows into the upper layer of the skin where it lives and lays its eggs. The most common symptoms of scabies are intense itching and a pimple-like skin rash. The scabies mite usually is spread by direct, prolonged, skin-to-skin contact with a person who has scabies.
+Scabies is found worldwide and affects people of all races and social classes. Scabies can spread rapidly under crowded conditions where close body and skin contact is frequent. Institutions such as nursing homes, extended-care facilities, and prisons are often sites of scabies outbreaks. Child care facilities also are a common site of scabies infestations.
+
+Who is at risk for Parasites - Scabies??
+Transmission
+
+Human scabies is caused by an infestation of the skin by the human itch mite (Sarcoptes scabiei var. hominis). The adult female scabies mites burrow into the upper layer of the skin (epidermis) where they live and deposit their eggs. The microscopic scabies mite almost always is passed by direct, prolonged, skin-to-skin contact with a person who already is infested. An infested person can spread scabies even if he or she has no symptoms. Humans are the source of infestation; animals do not spread human scabies.
+Persons At Risk
+
+Scabies can be passed easily by an infested person to his or her household members and sexual partners. Scabies in adults frequently is sexually acquired.
+
+Scabies is a common condition found worldwide; it affects people of all races and social classes. Scabies can spread easily under crowded conditions where close body and skin contact is common. Institutions such as nursing homes, extended-care facilities, and prisons are often sites of scabies outbreaks. Child care facilities also are a common site of scabies infestations.
+Crusted (Norwegian) Scabies
+
+Some immunocompromised, elderly, disabled, or debilitated persons are at risk for a severe form of scabies called crusted, or Norwegian, scabies. Persons with crusted scabies have thick crusts of skin that contain large numbers of scabies mites and eggs. The mites in crusted scabies are not more virulent than in non-crusted scabies; however, they are much more numerous (up to 2 million per patient). Because they are infested with such large numbers of mites, persons with crusted scabies are very contagious to other persons. In addition to spreading scabies through brief direct skin-to-skin contact, persons with crusted scabies can transmit scabies indirectly by shedding mites that contaminate items such as their clothing, bedding, and furniture. Persons with crusted scabies should receive quick and aggressive medical treatment for their infestation to prevent outbreaks of scabies.
+
+How to diagnose Parasites - Scabies?
+Diagnosis of a scabies infestation usually is made based upon the customary appearance and distribution of the the rash and the presence of burrows.
+
+Whenever possible, the diagnosis of scabies should be confirmed by identifying the mite or mite eggs or fecal matter (scybala). This can be done by carefully removing the mite from the end of its burrow using the tip of a needle or by obtaining a skin scraping to examine under a microscope for mites, eggs, or mite fecal matter (scybala). However, a person can still be infested even if mites, eggs, or fecal matter cannot be found; fewer then 10-15 mites may be present on an infested person who is otherwise healthy.
+
+What are the treatments for Parasites - Scabies?
+Suggested General Guidelines
+
+It is important to remember that the first time a person gets scabies they usually have no symptoms during the first 2 to 6 weeks they are infested; however they can still spread scabies during this time.
+
+Treatment should be given to both the infested person and to household members and sexual contacts, particularly those who have had prolonged direct skin-to-skin contact with the infested person. Both sexual and close personal contacts who have had direct prolonged skin-to-skin contact with an infested person within the preceding month should be examined and treated. All persons should be treated at the same time to prevent reinfestation. Scabies may sometimes be sexually-acquired in adults, but is rarely sexually-acquired in children.
+
+Bedding, clothing, and towels used by infested persons or their household, sexual, and close contacts (as defined above) anytime during the three days before treatment should be decontaminated by washing in hot water and drying in a hot dryer, by dry-cleaning, or by sealing in a plastic bag for at least 72 hours. Scabies mites generally do not survive more than 2 to 3 days away from human skin.
+
+Use of insecticide sprays and fumigants is not recommended.
+
+Medications Used to Treat Scabies
+
+Products used to treat scabies are called scabicides because they kill scabies mites; some also kill mite eggs. Scabicides used to treat human scabies are available only with a doctor’s prescription. No “over-the-counter” (non-prescription) products have been tested and approved to treat scabies.
+
+Scabicide should be applied to all areas of the body from the neck down to the feet and toes. In addition, when treating infants and young children, scabicide also should be applied to their entire head and neck because scabies can affect their face, scalp, and neck, as well as the rest of their body. The scabicide should be applied to a clean body and left on for the recommended time before washing it off. Clean clothing should be worn after treatment.
+
+The instructions contained in the box or printed on the label always should be followed carefully. Always contact a doctor or pharmacist if unsure how to use a particular medicine.
+
+Because the symptoms of scabies are due to a hypersensitivity reaction (allergy) to mites and their feces (scybala), itching still may continue for several weeks after treatment even if all the mites and eggs are killed. If itching still is present more than 2 to 4 weeks after treatment or if new burrows or pimple-like rash lesions continue to appear, retreatment may be necessary.
+
+Skin sores that become infected should be treated with an appropriate antibiotic prescribed by a doctor.
+
+How to prevent Parasites - Scabies?
+When a person is infested with scabies mites the first time, symptoms may not appear for up to two months after being infested. However, an infested person can transmit scabies, even if they do not have symptoms. Scabies usually is passed by direct, prolonged skin-to-skin contact with an infested person. However, a person with crusted (Norwegian) scabies can spread the infestation by brief skin-to-skin contact or by exposure to bedding, clothing, or even furniture that he/she has used.
+
+Scabies is prevented by avoiding direct skin-to-skin contact with an infested person or with items such as clothing or bedding used by an infested person. Scabies treatment usually is recommended for members of the same household, particularly for those who have had prolonged skin-to-skin contact. All household members and other potentially exposed persons should be treated at the same time as the infested person to prevent possible reexposure and reinfestation. Bedding and clothing worn or used next to the skin anytime during the 3 days before treatment should be machine washed and dried using the hot water and hot dryer cycles or be dry-cleaned. Items that cannot be dry-cleaned or laundered can be disinfested by storing in a closed plastic bag for several days to a week. Scabies mites generally do not survive more than 2 to 3 days away from human skin. Children and adults usually can return to child care, school, or work the day after treatment.
+
+Persons with crusted scabies and their close contacts, including household members, should be treated rapidly and aggressively to avoid outbreaks. Institutional outbreaks can be difficult to control and require a rapid, aggressive, and sustained response.
+
+Rooms used by a patient with crusted scabies should be thoroughly cleaned and vacuumed after use. Environmental disinfestation using pesticide sprays or fogs generally is unnecessary and is discouraged.

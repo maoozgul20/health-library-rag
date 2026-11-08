@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="13 NIH guides, 47 health topics, 4,541 searchable passages, 384 numbers per vector">
+<title>13 NIH guides, 47 health topics, 4,541 searchable passages, 384 numbers per vector</title>
+<style>
+:root{--bg:#ffffff;--panel:#f3f8f8;--line:#b7d0d3;--node:#e0f2ef;--accent:#0f8b7e;--ink:#12323a;--muted:#4f6a74;--hot:#d9363e}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1720;--panel:#13222c;--line:#2e4a57;--node:#143530;--accent:#3fc8b7;--ink:#e7f3f2;--muted:#a3bbc4;--hot:#ff7a7f}}
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:var(--ink)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.card{fill:var(--panel);stroke:var(--line)}
+.n{font-size:40px;font-weight:700;fill:var(--accent)}
+.l{font-size:16px;fill:var(--muted)}
+.g{animation:up .8s ease-out both}
+@keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.d{fill:var(--accent);animation:p 2s ease-in-out infinite}
+@keyframes p{50%{opacity:.25}}
+</style>
+<g class="g" style="animation-delay:0s"><rect class="card" x="1" y="6" width="283" height="108" rx="14"/>
+<circle class="d" cx="263" cy="28" r="5" style="animation-delay:0s"/>
+<text class="n" x="142.5" y="62" text-anchor="middle">13</text>
+<text class="l" x="142.5" y="92" text-anchor="middle">NIH guides</text></g>
+<g class="g" style="animation-delay:0.18s"><rect class="card" x="306" y="6" width="283" height="108" rx="14"/>
+<circle class="d" cx="568" cy="28" r="5" style="animation-delay:0.4s"/>
+<text class="n" x="447.5" y="62" text-anchor="middle">47</text>
+<text class="l" x="447.5" y="92" text-anchor="middle">health topics</text></g>
+<g class="g" style="animation-delay:0.36s"><rect class="card" x="611" y="6" width="283" height="108" rx="14"/>
+<circle class="d" cx="873" cy="28" r="5" style="animation-delay:0.8s"/>
+<text class="n" x="752.5" y="62" text-anchor="middle">4,541</text>
+<text class="l" x="752.5" y="92" text-anchor="middle">searchable passages</text></g>
+<g class="g" style="animation-delay:0.54s"><rect class="card" x="916" y="6" width="283" height="108" rx="14"/>
+<circle class="d" cx="1178" cy="28" r="5" style="animation-delay:1.2000000000000002s"/>
+<text class="n" x="1057.5" y="62" text-anchor="middle">384</text>
+<text class="l" x="1057.5" y="92" text-anchor="middle">numbers per vector</text></g>
+</svg>

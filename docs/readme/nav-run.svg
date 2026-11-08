@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="48" viewBox="0 0 170 48" role="img" aria-label="Run it">
+<title>Run it</title>
+<style>
+:root{--bg:#ffffff;--panel:#f3f8f8;--line:#b7d0d3;--node:#e0f2ef;--accent:#0f8b7e;--ink:#12323a;--muted:#4f6a74;--hot:#d9363e}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1720;--panel:#13222c;--line:#2e4a57;--node:#143530;--accent:#3fc8b7;--ink:#e7f3f2;--muted:#a3bbc4;--hot:#ff7a7f}}
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:var(--ink)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.b{fill:var(--node);stroke:var(--line);stroke-width:1.5}
+.f{fill:none;stroke:var(--accent);stroke-width:2;stroke-dasharray:16 84;animation:run 3.5s linear infinite}
+@keyframes run{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+.x{font-size:16px;font-weight:600}
+</style>
+<rect class="b" x="2" y="2" width="166" height="44" rx="22"/><rect class="f" pathLength="100" x="2" y="2" width="166" height="44" rx="22"/><text class="x" x="85" y="30" text-anchor="middle">Run it</text>
+</svg>

@@ -1,0 +1,25 @@
+flowchart TB
+  subgraph BUILD["1 · Build time (npm run build / Vercel deploy)"]
+    direction LR
+    D["data/docs/*.txt<br/>13 NIH guides · 933k chars"] --> C["scripts/chunk.mjs<br/>recursive chunking<br/>300 chars · 50 overlap"]
+    C --> E["scripts/build-index.mjs<br/>all-MiniLM-L6-v2 (q8)<br/>mean pooling + L2 norm"]
+    E --> I[("public/index<br/>chunks.json · 4,541 passages<br/>embeddings.bin · 384-d vectors")]
+  end
+
+  subgraph BROWSER["2 · Browser (Next.js + React)"]
+    direction LR
+    U(["User question"]) --> Q["transformers.js<br/>same MiniLM model<br/>embeds the question"]
+    Q --> S["Exact cosine search<br/>over all 4,541 vectors<br/>(+ optional TF-IDF hybrid)"]
+    S --> K["Top-k passages<br/>+ coverage check (0.40)"]
+    K --> UI["Chat UI<br/>answer · citations · sources panel"]
+    LS[("localStorage<br/>saved chats")] <--> UI
+  end
+
+  subgraph SERVER["3 · Vercel serverless function"]
+    direction LR
+    A["/api/ask<br/>grounded prompt +<br/>safety system prompt (lib/site.ts)"] --> G["Groq API<br/>openai/gpt-oss-120b<br/>temperature 0.2 · streaming"]
+  end
+
+  I -. "fetched once" .-> S
+  K -- "question + passages" --> A
+  G -- "streamed answer" --> UI
