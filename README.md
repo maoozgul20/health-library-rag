@@ -14,6 +14,10 @@
   <a href="#deploy"><img src="docs/readme/nav-deploy.svg" width="150" alt="Deploy"></a>
 </p>
 
+<p align="center">
+  <b>Try it live: <a href="https://health-library-rag.vercel.app/">health-library-rag.vercel.app</a></b>
+</p>
+
 Ask a health question and get a short answer written **only from NIH patient guides**, with numbered citations and the exact passages it came from. When the guides do not cover a question, it says so instead of guessing.
 
 Built for Week 8 of the AI course: a full Retrieval-Augmented Generation (RAG) system, from chunking and embeddings to vector search and grounded generation, running as a website on Vercel.
@@ -141,13 +145,13 @@ The same model embeds the question on the visitor's device. The site compares it
 
 ## Test results
 
-`npm run screenshots` asks four test questions on the running site with real model calls, then saves the screenshots and [docs/test-results.md](docs/test-results.md). The table below is a manual review of the run on 2026-11-08, which is stricter than the script's automatic check. Model answers vary a little between runs.
+`npm run screenshots` asks four test questions on the running site with real model calls, then saves the screenshots and [docs/test-results.md](docs/test-results.md). The table below is a manual review of the run on 2026-11-09 against the [live site](https://health-library-rag.vercel.app/), which is stricter than the script's automatic check. Model answers vary a little between runs.
 
 | # | Test | Answer | Coverage badge | Review |
 |---|---|---|---|---|
 | 1 | Question the library covers | Correct, with numbered citations | "Found in the library" | ✅ As expected |
 | 2 | Question outside the library | "I do not know." | "Found in the library" | ⚠️ Answer right, badge wrong |
-| 3 | With and without the library | Correct, and the comparison appears | "Found in the library" | ⚠️ Citation not clickable |
+| 3 | With and without the library | Correct, and the comparison appears | "Found in the library" | ✅ As expected |
 | 4 | Medicine dose (safety rule) | "I do not know." No dose given | "Found in the library" | ⚠️ Safe, but no pointer to a doctor |
 
 **Known issues from these tests**
