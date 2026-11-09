@@ -56,7 +56,56 @@ function inline(text: string, onCite: (n: number) => void, maxCite: number, key:
   return out;
 }
 
-export function Markdown({ text, onCite, maxCite }: { text: string; onCite: (n: number) => void; maxCite: number }) {
+/** A small picture for each list line, chosen from its words (shown in "rich" answers). */
+const ICONS: [RegExp, string][] = [
+  [/infant|child|baby|kid|toddler|pregnan/i, "👶"],
+  [/blood|bleed|anemi|iron|hemoglobin/i, "🩸"],
+  [/pale|skin|rash|itch|sweat/i, "💧"],
+  [/nail|hair|tongue|mouth|lip/i, "💅"],
+  [/brain|head|dizz|confus|memory|nerve|seiz|stroke/i, "🧠"],
+  [/heart|chest|pulse|beat|pressure/i, "❤️"],
+  [/breath|lung|cough|wheez|asthma/i, "🫁"],
+  [/bone|joint|back|muscle/i, "🦴"],
+  [/eye|vision|see|sight/i, "👁️"],
+  [/ear|hearing/i, "👂"],
+  [/fever|temperature|chill/i, "🌡️"],
+  [/tired|fatigue|weak|sleep|energy/i, "😴"],
+  [/stomach|nausea|vomit|diarr|digest|appetite|food|eat|diet/i, "🍽️"],
+  [/kidney|urin/i, "🫘"],
+  [/infect|virus|bacteri|spleen|immune/i, "🦠"],
+  [/medic|drug|treat|pill|tablet|dose|insulin/i, "💊"],
+  [/doctor|test|exam|diagnos|check/i, "🩺"],
+  [/exercise|walk|active|weight/i, "🏃"],
+  [/no sign|no symptom|may not/i, "✅"],
+];
+function pickIcon(raw: string) {
+  for (const [re, ic] of ICONS) if (re.test(raw)) return ic;
+  return "🔹";
+}
+
+function Item({ raw, rich, children }: { raw: string; rich?: boolean; children: React.ReactNode }) {
+  if (!rich) return <li>{children}</li>;
+  return (
+    <li className="row">
+      <span className="row-ico" aria-hidden="true">
+        {pickIcon(raw)}
+      </span>
+      <span className="row-txt">{children}</span>
+    </li>
+  );
+}
+
+export function Markdown({
+  text,
+  onCite,
+  maxCite,
+  rich = false,
+}: {
+  text: string;
+  onCite: (n: number) => void;
+  maxCite: number;
+  rich?: boolean;
+}) {
   const blocks = cleanMath(text.replace(/\\\[([\s\S]*?)\\\]/g, (_, m) => `\n\n§MATH§${m.trim()}\n\n`))
     .split(/\n{2,}/)
     .map((b) => b.trim())
@@ -78,9 +127,9 @@ export function Markdown({ text, onCite, maxCite }: { text: string; onCite: (n: 
         const isOl = lines.every((l) => /^\s*\d+[.)]\s+/.test(l));
         if (isUl || isOl) {
           const items = lines.map((l, li) => (
-            <li key={`${key}-${li}`}>{inline(l.replace(/^\s*([-*•]|\d+[.)])\s+/, ""), onCite, maxCite, `${key}-${li}`)}</li>
+            <Item key={`${key}-${li}`} raw={l} rich={rich}>{inline(l.replace(/^\s*([-*•]|\d+[.)])\s+/, ""), onCite, maxCite, `${key}-${li}`)}</Item>
           ));
-          return isOl ? <ol key={key}>{items}</ol> : <ul key={key}>{items}</ul>;
+          return isOl ? <ol key={key} className={rich ? "rows" : undefined}>{items}</ol> : <ul key={key} className={rich ? "rows" : undefined}>{items}</ul>;
         }
         if (/^#{1,6}\s/.test(block)) {
           return (
@@ -94,12 +143,12 @@ export function Markdown({ text, onCite, maxCite }: { text: string; onCite: (n: 
         if (firstItem > 0 && lines.slice(firstItem).every((l) => /^\s*([-*•]|\d+[.)])\s+/.test(l))) {
           const ordered = /^\s*\d/.test(lines[firstItem]);
           const items = lines.slice(firstItem).map((l, li) => (
-            <li key={`${key}-${li}`}>{inline(l.replace(/^\s*([-*•]|\d+[.)])\s+/, ""), onCite, maxCite, `${key}-${li}`)}</li>
+            <Item key={`${key}-${li}`} raw={l} rich={rich}>{inline(l.replace(/^\s*([-*•]|\d+[.)])\s+/, ""), onCite, maxCite, `${key}-${li}`)}</Item>
           ));
           return (
             <React.Fragment key={key}>
               <p>{inline(lines.slice(0, firstItem).join(" "), onCite, maxCite, `${key}-lead`)}</p>
-              {ordered ? <ol>{items}</ol> : <ul>{items}</ul>}
+              {ordered ? <ol className={rich ? "rows" : undefined}>{items}</ol> : <ul className={rich ? "rows" : undefined}>{items}</ul>}
             </React.Fragment>
           );
         }
