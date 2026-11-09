@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f3f7f9" },
+    { media: "(prefers-color-scheme: light)", color: "#e4f4fa" },
     { media: "(prefers-color-scheme: dark)", color: "#0b1820" },
   ],
 };
@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
         />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>

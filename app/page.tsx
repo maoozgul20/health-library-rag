@@ -1,11 +1,10 @@
 "use client";
 
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { AmbientScene } from "@/components/AmbientScene";
 import { EvidenceList, Verdict } from "@/components/Evidence";
 import { Library } from "@/components/Library";
 import { Markdown } from "@/components/Markdown";
-import { MedicalBackground } from "@/components/MedicalBackground";
-import { MedicalScene } from "@/components/MedicalScene";
 import { embedQuery, loadEmbedder, type LoadProgress } from "@/lib/embedder";
 import { buildPrompt, COVERAGE_THRESHOLD, loadIndex, search, type LoadedIndex } from "@/lib/search";
 import { SITE } from "@/lib/site";
@@ -38,7 +37,6 @@ function loadChats(): Chat[] {
     const raw = localStorage.getItem(STORE);
     if (!raw) return [];
     const chats = JSON.parse(raw) as Chat[];
-    // anything that was still streaming when the page closed is finished now
     return chats.map((c) => ({
       ...c,
       turns: c.turns.map((t) =>
@@ -80,16 +78,36 @@ async function streamAnswer(body: object, onText: (t: string) => void, signal: A
   }
 }
 
-const pulse = () => window.dispatchEvent(new Event("med-pulse"));
+/** Splits a question so its subject can be coloured: "What are the symptoms of | iron-deficiency anemia?" */
+function splitAccent(q: string): [string, string] {
+  const m = q.match(/^(.*\b(?:of|about|for|with|from)\s)(.{3,})$/i) ?? q.match(/^((?:what|how|why|who|when|which|can|does|do|is|are|ask)\s+(?:is|are|does|do|can|to|a|an|the)?\s*)(.{3,})$/i);
+  return m ? [m[1], m[2]] : [q, ""];
+}
 
 /* ---------- icons ---------- */
 
-function Mark({ size = 28 }: { size?: number }) {
+function HeartLogo({ size = 44 }: { size?: number }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 32 32" aria-hidden="true" className="mark">
-      <rect width="32" height="32" rx="9" fill="var(--accent)" />
-      <path d="M5 17h5l2.5-6 4 11 3-8 1.8 3H27" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+    <svg width={size} height={size} viewBox="0 0 48 44" className="heart-logo" aria-hidden="true">
+      <defs>
+        <linearGradient id="hl" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stopColor="#7ee8f2" />
+          <stop offset="1" stopColor="#0b8fa6" />
+        </linearGradient>
+      </defs>
+      <path d="M24 41C14 34 2 26 2 14 2 7 7 2 14 2c4.6 0 8 2.4 10 6 2-3.6 5.4-6 10-6 7 0 12 5 12 12 0 12-12 20-22 27z" fill="url(#hl)" stroke="rgba(255,255,255,.9)" strokeWidth="1.5" />
+      <path d="M7 22h9l3-6 5 12 4-9 2 3h11" fill="none" stroke="#fff" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
+  );
+}
+function Orb({ big = false }: { big?: boolean }) {
+  return (
+    <span className={`orb ${big ? "big" : ""}`} aria-hidden="true">
+      <svg viewBox="0 0 40 40">
+        {big && <path d="M10 9h20a5 5 0 015 5v11a5 5 0 01-5 5H19l-7 6v-6h-2a5 5 0 01-5-5V14a5 5 0 015-5z" fill="rgba(255,255,255,.18)" stroke="#fff" strokeWidth="1.8" />}
+        <path d={big ? "M9 20h6l2.5-5 4 10 3-7 1.6 2H31" : "M6 21h7l3-7 5 13 4-9 2 3h7"} fill="none" stroke="#fff" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    </span>
   );
 }
 const Icon = {
@@ -99,12 +117,17 @@ const Icon = {
   send: <path d="M12 19V6M6 11l6-6 6 6" />,
   stop: <rect x="7" y="7" width="10" height="10" rx="2" fill="currentColor" stroke="none" />,
   sliders: <path d="M4 7h10M18 7h2M4 17h4M12 17h8M16 5v4M10 15v4" />,
-  book: <path d="M5 4h10a4 4 0 014 4v12H9a4 4 0 01-4-4zM5 16a4 4 0 014-4h10" />,
+  folder: <path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />,
+  chev: <path d="M9 6l6 6-6 6" />,
   copy: <path d="M9 9h10v10H9zM5 15V5h10" />,
   check: <path d="M5 12l5 5L19 7" />,
   doc: <path d="M7 3h7l5 5v13H7zM14 3v5h5M10 13h6M10 17h6" />,
   chat: <path d="M5 5h14v10H9l-4 4z" />,
+  clock: <path d="M12 7v5l3 2M12 21a9 9 0 110-18 9 9 0 010 18z" />,
   trash: <path d="M5 7h14M10 7V4h4v3M7 7l1 13h8l1-13" />,
+  book: <path d="M12 6c-2-1.5-5-2-8-1.5V19c3-.5 6 0 8 1.5M12 6c2-1.5 5-2 8-1.5V19c-3-.5-6 0-8 1.5M12 6v14.5" />,
+  sparkle: <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z" />,
+  user: <path d="M12 12a4 4 0 100-8 4 4 0 000 8zM4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" />,
 };
 function I({ name, size = 18 }: { name: keyof typeof Icon; size?: number }) {
   return (
@@ -137,13 +160,13 @@ export default function Home() {
   const [activeCite, setActiveCite] = useState<number | null>(null);
   const [libraryOpen, setLibraryOpen] = useState(false);
   const [copied, setCopied] = useState<number | null>(null);
+  const [beat, setBeat] = useState(0);
 
   const nextId = useRef(Date.now());
   const abortRef = useRef<AbortController | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const stick = useRef(true);
 
-  // load the index, the server status and saved chats
   useEffect(() => {
     loadIndex()
       .then((idx) => {
@@ -170,8 +193,8 @@ export default function Home() {
   const turns = chat?.turns ?? [];
   const busy = turns.some((t) => t.status === "searching" || t.status === "answering");
   const hasTurns = turns.length > 0;
+  const lastQ = turns.length ? turns[turns.length - 1].question : "";
 
-  // keep the newest message in view while it streams, unless the reader scrolled up
   useLayoutEffect(() => {
     const el = scrollRef.current;
     if (el && stick.current) el.scrollTop = el.scrollHeight;
@@ -221,7 +244,7 @@ export default function Home() {
     const ctrl = new AbortController();
     abortRef.current = ctrl;
     stick.current = true;
-    pulse();
+    setBeat((b) => b + 1);
 
     const useMode: SearchMode = index.vectors ? mode : "keyword";
     const id = nextId.current++;
@@ -274,7 +297,7 @@ export default function Home() {
       streamAnswer({ question: q, passages, withNotes: true }, (text) => patch(chatId, id, (t) => ({ ...t, answer: text })), ctrl.signal)
         .then(() => {
           patch(chatId, id, (t) => ({ ...t, status: "done" }));
-          pulse();
+          setBeat((b) => b + 1);
         })
         .catch((e) => {
           if (e.name === "AbortError") return patch(chatId, id, (t) => ({ ...t, status: "done", answer: t.answer || "Stopped." }));
@@ -305,12 +328,13 @@ export default function Home() {
     setSources({ chat: chat.id, turn: turnId });
     setActiveCite(cite);
     if (cite)
-      setTimeout(() => document.getElementById(`src-${cite}`)?.scrollIntoView({ behavior: "smooth", block: "nearest" }), 260);
+      setTimeout(() => document.getElementById(`src-${cite}`)?.scrollIntoView({ behavior: "smooth", block: "nearest" }), 300);
   };
 
   const sourceTurn = sources ? chats.find((c) => c.id === sources.chat)?.turns.find((t) => t.id === sources.turn) ?? null : null;
   const pct = progress && progress.total ? Math.round((progress.loaded / progress.total) * 100) : null;
   const saved = chats.filter((c) => c.turns.length);
+  const [headA, headB] = splitAccent(hasTurns ? lastQ : SITE.introTitle);
 
   const composer = (
     <Composer
@@ -332,35 +356,40 @@ export default function Home() {
     />
   );
 
-  const status =
-    server == null ? "Connecting…" : server.configured ? server.model.split("/").pop() : "Search only";
-
   return (
     <div className={`shell ${sources && sourceTurn ? "with-sources" : ""} ${sidebarOpen ? "nav-open" : ""}`}>
-      <MedicalScene calm={hasTurns} />
-      <MedicalBackground calm={hasTurns} />
+      <AmbientScene beat={beat} />
 
       {/* ---------- sidebar ---------- */}
-      <aside className="sidebar" aria-label="Chats">
+      <aside className="sidebar glass enter-left" aria-label="Chats">
         <div className="side-top">
           <div className="brand">
-            <Mark />
-            <span>{SITE.brand}</span>
+            <HeartLogo />
+            <div>
+              <strong>{SITE.brand}</strong>
+              <small>Your Health Knowledge Hub</small>
+            </div>
           </div>
           <button type="button" className="icon-btn only-mobile" onClick={() => setSidebarOpen(false)} aria-label="Close menu">
             <I name="close" />
           </button>
         </div>
         <button type="button" className="new-chat" onClick={startNewChat}>
-          <I name="plus" /> New chat
+          <I name="plus" size={20} />
+          <span>New chat</span>
+          <span className="spark" aria-hidden="true">
+            <I name="sparkle" size={18} />
+          </span>
         </button>
 
         <nav className="history" aria-label="Saved chats">
-          <h2>Chats</h2>
+          <h2>
+            <I name="clock" size={17} /> Chats
+          </h2>
           {saved.length === 0 && <p className="empty">Your questions will appear here.</p>}
           <ul>
-            {saved.map((c) => (
-              <li key={c.id} className={c.id === activeId ? "active" : ""}>
+            {saved.map((c, i) => (
+              <li key={c.id} className={c.id === activeId ? "active" : ""} style={{ animationDelay: `${i * 40}ms` }}>
                 <button
                   type="button"
                   className="hist-item"
@@ -371,7 +400,7 @@ export default function Home() {
                     stick.current = true;
                   }}
                 >
-                  <I name="chat" size={15} />
+                  <I name="chat" size={17} />
                   <span>{c.title}</span>
                 </button>
                 <button type="button" className="hist-del" onClick={() => deleteChat(c.id)} aria-label={`Delete chat: ${c.title}`}>
@@ -384,33 +413,46 @@ export default function Home() {
 
         <div className="side-bottom">
           <button type="button" className="side-link" onClick={() => setLibraryOpen(true)}>
-            <I name="book" /> Library files
+            <span className="folder">
+              <I name="folder" size={18} />
+            </span>
+            Library files
+            <I name="chev" size={18} />
           </button>
           <p className="model">
             <span className={`dot ${server?.configured ? "on" : ""}`} aria-hidden="true" />
-            {status}
+            {server == null ? "Connecting…" : server.configured ? `Online · ${server.model.split("/").pop()}` : "Search only"}
           </p>
         </div>
       </aside>
       <button type="button" className="scrim" aria-label="Close menu" tabIndex={-1} onClick={() => setSidebarOpen(false)} />
 
       {/* ---------- main ---------- */}
-      <main className="main">
+      <main className={`main ${hasTurns ? "chatting" : "landing-mode"}`}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className="doctor enter-rise" src="/doctor.webp" alt="" aria-hidden="true" onError={(e) => (e.currentTarget.style.display = "none")} />
+
         <header className="topbar">
           <button type="button" className="icon-btn only-mobile" onClick={() => setSidebarOpen(true)} aria-label="Open menu">
             <I name="menu" />
           </button>
-          <p className="chat-title">{hasTurns ? chat?.title : SITE.brand}</p>
-          <button type="button" className="icon-btn" onClick={startNewChat} aria-label="New chat" title="New chat">
-            <I name="plus" />
-          </button>
+          <div className="q-head glass enter-drop" key={hasTurns ? lastQ : "intro"}>
+            <Orb big />
+            <h1>
+              {headA}
+              {headB && <em>{headB.replace(/-/g, "\u2011")}</em>}
+            </h1>
+            <span className="ticks" aria-hidden="true">
+              <i />
+              <i />
+              <i />
+            </span>
+          </div>
         </header>
 
         <div className="scroll" ref={scrollRef} onScroll={onScroll}>
           {!hasTurns ? (
-            <section className="landing" aria-labelledby="hello">
-              <Mark size={52} />
-              <h1 id="hello">{SITE.introTitle}</h1>
+            <section className="landing enter-up" aria-label="Start">
               <p className="lead">{SITE.introLead}</p>
               {composer}
               {embedState === "loading" && (
@@ -424,11 +466,11 @@ export default function Home() {
                 </p>
               )}
               <ul className="starters">
-                {SITE.starters.map((s) => (
-                  <li key={s.q}>
+                {SITE.starters.map((s, i) => (
+                  <li key={s.q} style={{ animationDelay: `${700 + i * 90}ms` }}>
                     <button
                       type="button"
-                      className="chip-btn"
+                      className="chip-btn glass"
                       disabled={!index}
                       onClick={() => {
                         warmEmbedder();
@@ -437,42 +479,47 @@ export default function Home() {
                     >
                       <strong>{s.title}</strong>
                       <span>{s.q}</span>
+                      <i aria-hidden="true">
+                        <I name="chev" size={16} />
+                      </i>
                     </button>
                   </li>
                 ))}
               </ul>
-              <p className="fine">{SITE.disclaimer}</p>
-              <p className="hint-bg">Move your pointer over the background, or click empty space, to change the heartbeat.</p>
+              <p className="fine glass">{SITE.disclaimer}</p>
             </section>
           ) : (
-            <ol className="thread" aria-label="Conversation">
+            <ol className="thread" aria-label="Conversation" key={activeId}>
               {turns.map((t) => (
                 <li key={t.id} className="pair">
                   <div className="msg user">
                     <p className="bubble">{t.question}</p>
+                    <span className="avatar" aria-hidden="true">
+                      <I name="user" size={22} />
+                    </span>
                   </div>
                   <div className="msg bot">
-                    <Mark size={28} />
-                    <div className="bot-body">
+                    <Orb />
+                    <div className="bot-body glass">
                       <BotAnswer turn={t} server={server} onCite={(n) => openSources(t.id, n)} />
 
                       {t.hits.length > 0 && (t.status === "done" || t.status === "error" || t.answer) && (
                         <div className="msg-actions">
                           <CoverageBadge hits={t.hits} />
                           <button type="button" className="pill" onClick={() => openSources(t.id)}>
-                            <I name="doc" size={15} /> {t.hits.length} sources
+                            <I name="doc" size={17} /> {t.hits.length} sources
                           </button>
                           {t.answer && (
                             <button
                               type="button"
-                              className="pill ghost"
+                              className="pill"
                               onClick={() => {
                                 navigator.clipboard?.writeText(t.answer).catch(() => {});
                                 setCopied(t.id);
                                 setTimeout(() => setCopied(null), 1500);
                               }}
                             >
-                              <I name={copied === t.id ? "check" : "copy"} size={15} /> {copied === t.id ? "Copied" : "Copy"}
+                              <I name={copied === t.id ? "check" : "copy"} size={17} /> {copied === t.id ? "Copied" : "Copy"}
                             </button>
                           )}
                         </div>
@@ -512,7 +559,7 @@ export default function Home() {
         </div>
 
         {hasTurns && (
-          <div className="dock">
+          <div className="dock enter-up">
             {embedState === "loading" && (
               <p className="loading-line" role="status">
                 Loading the search model{pct != null ? `, ${pct}%` : ""}. This happens once.
@@ -526,7 +573,7 @@ export default function Home() {
 
       {/* ---------- sources panel ---------- */}
       {sources && sourceTurn && (
-        <aside className="sources" aria-label="Sources for this answer">
+        <aside className="sources glass" aria-label="Sources for this answer">
           <header>
             <div>
               <h2>Sources</h2>
@@ -545,7 +592,7 @@ export default function Home() {
       {/* ---------- library dialog ---------- */}
       {libraryOpen && index && (
         <div className="dialog-wrap" role="presentation" onClick={() => setLibraryOpen(false)}>
-          <div className="dialog" role="dialog" aria-modal="true" aria-label="Library files" onClick={(e) => e.stopPropagation()}>
+          <div className="dialog glass" role="dialog" aria-modal="true" aria-label="Library files" onClick={(e) => e.stopPropagation()}>
             <button type="button" className="icon-btn dialog-close" onClick={() => setLibraryOpen(false)} aria-label="Close library">
               <I name="close" />
             </button>
@@ -565,7 +612,7 @@ function CoverageBadge({ hits }: { hits: Hit[] }) {
   const ok = best >= COVERAGE_THRESHOLD;
   return (
     <span className={`badge ${ok ? "ok" : "warn"}`} title={`Best match ${best.toFixed(2)}; the line is ${COVERAGE_THRESHOLD.toFixed(2)}`}>
-      <span className="b-dot" aria-hidden="true" />
+      <I name="book" size={17} />
       {ok ? "Found in the library" : "Probably not in the library"}
     </span>
   );
@@ -575,7 +622,7 @@ function BotAnswer({ turn, server, onCite }: { turn: Turn; server: ServerInfo; o
   if (turn.status === "searching")
     return (
       <p className="thinking">
-        <span className="ecg-mini" aria-hidden="true" />
+        <span className="scan" aria-hidden="true" />
         Searching the library…
       </p>
     );
@@ -584,8 +631,8 @@ function BotAnswer({ turn, server, onCite }: { turn: Turn; server: ServerInfo; o
     return (
       <div className="answer">
         <p>
-          Answers are off because the server has no <code>LLM_API_KEY</code>. Here is what the search found: open the sources below to
-          read the passages.
+          Answers are off because the server has no <code>LLM_API_KEY</code>. Open the sources below to read the passages the search
+          found.
         </p>
         <Verdict hits={turn.hits} />
       </div>
@@ -594,7 +641,7 @@ function BotAnswer({ turn, server, onCite }: { turn: Turn; server: ServerInfo; o
   return (
     <div className="answer" aria-live="polite" aria-busy={turn.status === "answering"}>
       {turn.answer ? (
-        <Markdown text={turn.answer} onCite={onCite} maxCite={turn.hits.length} />
+        <Markdown text={turn.answer} onCite={onCite} maxCite={turn.hits.length} rich />
       ) : (
         <p className="typing" aria-label="Writing an answer">
           <i />
@@ -650,10 +697,12 @@ function Composer(props: {
     };
   }, [open]);
 
+  const ready = !!props.value.trim() && !props.disabled;
+
   return (
     <form
       ref={wrap}
-      className={`composer ${props.big ? "big" : ""}`}
+      className={`composer glass ${props.big ? "big" : ""}`}
       onSubmit={(e) => {
         e.preventDefault();
         props.onSubmit();
@@ -680,32 +729,33 @@ function Composer(props: {
         }}
       />
       <div className="composer-row">
-        <button
-          type="button"
-          className={`tool ${open ? "on" : ""}`}
-          aria-expanded={open}
-          aria-controls="search-settings"
-          onClick={() => setOpen(!open)}
-        >
+        <button type="button" className={`tool ${open ? "on" : ""}`} aria-expanded={open} aria-controls="search-settings" onClick={() => setOpen(!open)}>
           <I name="sliders" size={17} /> Search settings
         </button>
         <span className="tool-note">
           {props.k} sources, {props.mode === "semantic" ? "by meaning" : props.mode === "hybrid" ? "meaning + words" : "exact words"}
           {props.compare ? ", compare" : ""}
         </span>
-        {props.busy ? (
-          <button type="button" className="send" onClick={props.onStop} aria-label="Stop answering">
-            <I name="stop" />
-          </button>
-        ) : (
-          <button type="submit" className="send" disabled={!props.value.trim() || props.disabled} aria-label="Send question">
-            <I name="send" />
-          </button>
-        )}
+        <span className={`send-wrap ${ready ? "ready" : ""}`}>
+          <span className="ticks" aria-hidden="true">
+            <i />
+            <i />
+            <i />
+          </span>
+          {props.busy ? (
+            <button type="button" className="send" onClick={props.onStop} aria-label="Stop answering">
+              <I name="stop" size={22} />
+            </button>
+          ) : (
+            <button type="submit" className="send" disabled={!ready} aria-label="Send question">
+              <I name="send" size={24} />
+            </button>
+          )}
+        </span>
       </div>
 
       {open && (
-        <div className="popover" id="search-settings">
+        <div className="popover glass" id="search-settings">
           <fieldset>
             <legend>Sources per answer</legend>
             <div className="seg">
@@ -728,13 +778,7 @@ function Composer(props: {
                 ] as [SearchMode, string][]
               ).map(([m, label]) => (
                 <label key={m} className={m !== "keyword" && !props.hasVectors ? "off" : ""}>
-                  <input
-                    type="radio"
-                    name="mode"
-                    checked={props.mode === m}
-                    disabled={m !== "keyword" && !props.hasVectors}
-                    onChange={() => props.setMode(m)}
-                  />
+                  <input type="radio" name="mode" checked={props.mode === m} disabled={m !== "keyword" && !props.hasVectors} onChange={() => props.setMode(m)} />
                   <span>{label}</span>
                 </label>
               ))}
