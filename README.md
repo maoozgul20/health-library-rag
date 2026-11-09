@@ -35,7 +35,7 @@ Built for Week 8 of the AI course: a full Retrieval-Augmented Generation (RAG) s
 - **Coverage check.** Every answer shows "Found in the library" or "Probably not in the library", based on the best similarity score and a 0.40 line.
 - **Search settings:** 3, 5 or 8 sources; search by meaning, by meaning and words (hybrid), or by exact words; and an option to compare with the model's answer without the library.
 - **Library browser** for all 13 guides and their 4,541 passages.
-- **Animated medical background:** blood cells that move away from the pointer, a DNA helix, and a heartbeat monitor whose rate rises when you move fast.
+- **Animated hospital room:** glass panels over floating crosses, capsules and a heart monitor that shift with the pointer, and a glowing heart that beats faster when a question is asked or answered.
 - Light and dark mode, and a layout that works on phones.
 
 </details>
@@ -289,8 +289,7 @@ app/
   api/ask/route.ts     server route: grounded prompt + streaming answer
   globals.css          all styling, light and dark
 components/
-  MedicalBackground.tsx  animated canvas: cells, DNA, heartbeat
-  MedicalScene.tsx       hospital and doctor line art
+  AmbientScene.tsx       animated hospital room and beating heart
   Evidence.tsx           passages, score meters, highlighting
   Library.tsx            library browser
   Markdown.tsx           answer rendering with citations

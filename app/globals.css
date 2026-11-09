@@ -1074,6 +1074,7 @@ mark {
 /* composer */
 .composer {
   position: relative;
+  z-index: 5; /* keeps the settings popover above the starter cards */
   border-radius: 36px;
   padding: 18px 18px 14px 28px;
   transition: box-shadow 0.3s, transform 0.3s var(--ease);
@@ -1915,13 +1916,15 @@ details[open] > :not(summary) {
 }
 .pipeline li {
   counter-increment: step;
-  display: grid;
-  grid-template-columns: 34px 1fr;
-  padding: 8px 0;
+  position: relative;
+  padding: 8px 0 8px 34px;
   color: var(--ink-2);
 }
 .pipeline li::before {
   content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 8px;
   display: grid;
   place-items: center;
   width: 24px;

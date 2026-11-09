@@ -197,8 +197,8 @@ export default function Home() {
 
   useLayoutEffect(() => {
     const el = scrollRef.current;
-    if (el && stick.current) el.scrollTop = el.scrollHeight;
-  }, [chats, activeId]);
+    if (el && stick.current) el.scrollTop = hasTurns ? el.scrollHeight : 0;
+  }, [chats, activeId, hasTurns]);
   const onScroll = () => {
     const el = scrollRef.current;
     if (el) stick.current = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
